@@ -5,7 +5,7 @@
     <style>
     body {
       padding: 15px;
-      font-family: system-ui;
+      font-family: system-ui, sans-serif, Arial;
     }
     .beta {
       padding: 5px;
@@ -19,9 +19,9 @@
   </head>
   <body>
     <h1>scrh <span class="beta">Beta</span></h1>
-    <p><code>scrh</code> shortens long Scratch profile links into shortened links.</p>
-    <h2>How to use</h2>
-    <p>Add <code>/username</code> (with <i>username</i> being the username to create a link for)
-      to the end of this URL to create a new shortened link.</p>
+    <p>Shorten your Scratch profile link. Enter your username to get started.</p>
+    <label for="uname">Scratch username:</label>
+    <input type="text" id="uname"></input>
+    <br><br><b>scrh link:</b> <code><span id="scrh"></span></code>
   </body>
 </html>
